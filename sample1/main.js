@@ -2,8 +2,8 @@
 
 
 getTally = () => {
-  let tallyKey = 'Sbvpiwc8u4kO8Tf6Zy2z'
-  axios.get('http://localhost:5001/tally-8c201/us-central1/readTally?tallyKey=' + tallyKey)
+  let tallyKey = '4MWYDKSuzH0Z0PRW4APa'
+  axios.get('https://us-central1-tally-8c201.cloudfunctions.net/readTally?tallyKey=' + tallyKey)
     .then(function (response) {
 
       // handle success
